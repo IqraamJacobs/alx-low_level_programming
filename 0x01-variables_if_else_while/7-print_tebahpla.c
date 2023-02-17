@@ -1,5 +1,20 @@
-#!/bin/bash
-julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-print_tebahpla.c -o 7-print_tebahpla
-julien@ubuntu:~/0x01$ ./7-print_tebahpla
-zyxwvutsrqponmlkjihgfedcba
-julien@ubuntu:~/0x01$
+#include <stdio.h>
+/**
+ * main - Entry - point
+ *
+ * Return: Always 0 (success)
+ */
+
+int main(void)
+{
+	char c;
+
+	c = 'z';
+	while
+		(c >= 'a') {
+			putchar(c);
+			c--;
+		}
+	putchar('\n');
+	return (0);
+}	
